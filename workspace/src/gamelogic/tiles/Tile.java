@@ -34,7 +34,10 @@ public class Tile{
 	}
 	
 	
-	
+	// add setter for image variable
+	public void setImage(BufferedImage i){
+		image = i;
+	}
 	//------------------------------------Getters
 	public boolean isSolid() {
 		return solid;
